@@ -1,0 +1,788 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "category": "01 · AGENTIC AI",
+      "title": "Assessment, retrieval & conversational AI",
+      "summary": "Multi-agent exam assessment and feedback, agentic RAG, and a multilingual public-sector assistant.",
+      "tags": [
+        "LLMs",
+        "RAG",
+        "Multi-agent"
+      ],
+      "sections": [
+        {
+          "title": "Purpose",
+          "body": "Apply language models to assessment, information retrieval and multilingual access to public services."
+        },
+        {
+          "title": "My contribution",
+          "body": "Architected the assessment system for an education provider, agentic RAG applications that cut manual retrieval work, and a conversational platform serving users across multiple counties."
+        },
+        {
+          "title": "Engineering",
+          "body": "Requirements, model integration, APIs, evaluation, security, observability and cloud delivery. Evaluation toolkit: Langfuse, LangSmith, DeepEval, TruLens."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "category": "02 · DATA & MLOPS",
+      "title": "Consumer analytics at scale",
+      "summary": "Azure pipelines processing 25–30 million transaction and receipt records every week.",
+      "tags": [
+        "Azure ML",
+        "Data Lake",
+        "Feast"
+      ],
+      "sections": [
+        {
+          "title": "Context",
+          "body": "Client delivery for NPD Group, including data from the ReceiptPal application."
+        },
+        {
+          "title": "My contribution",
+          "body": "Designed and operated ingestion, validation, cleaning and feature engineering in Azure Data Lake, and orchestrated 5,000+ anomaly-detection model runs per processing cycle."
+        },
+        {
+          "title": "Operations",
+          "body": "Automated retraining, drift monitoring, Feast-based feature management and deployment automation."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "category": "03 · GENERATIVE EXPERIENCE",
+      "title": "Weather-responsive immersive art",
+      "summary": "Dynamic interpretations of Irish landmarks and traditional oil paintings, driven by live weather.",
+      "tags": [
+        "Stability AI",
+        "LoRA",
+        "Live APIs"
+      ],
+      "sections": [
+        {
+          "title": "Purpose",
+          "body": "An immersive generative-AI experience that reacts to changing weather."
+        },
+        {
+          "title": "My contribution",
+          "body": "Architected and delivered the platform combining Stability AI, fine-tuned LoRA models and live weather APIs."
+        },
+        {
+          "title": "Engineering",
+          "body": "Model adaptation, API integration, generation workflows and cloud deployment."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "category": "04 · DOCUMENT INTELLIGENCE",
+      "title": "Financial-document extraction",
+      "summary": "An AI workflow benchmarked against a task that took about three days of manual analysis.",
+      "tags": [
+        "Extraction",
+        "Validation",
+        "Applied AI"
+      ],
+      "sections": [
+        {
+          "title": "Purpose",
+          "body": "Reduce manual effort in extracting and checking financial information."
+        },
+        {
+          "title": "My contribution",
+          "body": "Designed the extraction workflow and compared its output with a manually prepared financial model."
+        },
+        {
+          "title": "Result",
+          "body": "Within about 4% of the manual model, and it exposed an error in the source material. This is a project-specific benchmark, not a general accuracy claim."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "category": "05 · SECURITY & GOVERNANCE",
+      "title": "Architecture with security built in",
+      "summary": "Architecture reviews, authorised penetration testing and EU AI Act guidance for startups.",
+      "tags": [
+        "API security",
+        "Tenant isolation",
+        "Responsible AI"
+      ],
+      "sections": [
+        {
+          "title": "Context",
+          "body": "Consulting for 30+ early-stage companies through CeADAR and the NovaUCD AI Accelerator."
+        },
+        {
+          "title": "My contribution",
+          "body": "Review system design, data flows, APIs, security, observability and cloud cost. Perform authorised manual and tool-assisted testing, document reproducible findings and validate remediation."
+        },
+        {
+          "title": "Focus",
+          "body": "Authentication, access control, tenant isolation, data exposure, and AI classification, transparency and human oversight."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "category": "06 · COMPUTER VISION",
+      "title": "Vision from cloud to edge",
+      "summary": "Perception and classification for retail recommendation, robotics and vehicle detection.",
+      "tags": [
+        "OpenVINO",
+        "OAK-D",
+        "YOLO"
+      ],
+      "sections": [
+        {
+          "title": "Applications",
+          "body": "Iris-colour and face-shape models for a Ray-Ban recommendation app; robotic-arm perception with detection, depth and segmentation; licence-plate detection."
+        },
+        {
+          "title": "My contribution",
+          "body": "Built models and pipelines with mobile and edge deployment, augmentation, tuning and containerised inference."
+        },
+        {
+          "title": "Recognition",
+          "body": "Top 50 worldwide finalist, OpenCV Spatial AI Contest 2021 (with Microsoft Azure and Intel)."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "date": "JAN 2024 – PRESENT",
+      "title": "Senior Data Scientist & AI Technical Lead",
+      "org": "CeADAR, University College Dublin · Ireland",
+      "bullets": [
+        "End-to-end delivery of concurrent AI engagements for SMEs, public-sector bodies and startups, from discovery to handover.",
+        "Own cloud governance and FinOps across AWS, Azure and GCP.",
+        "Set architecture, security, evaluation and deployment standards; mentor engineers and coordinate 10+ data scientists."
+      ]
+    },
+    {
+      "date": "2024 – PRESENT",
+      "title": "Lead Technical Consultant / Forward Deployed Engineer",
+      "org": "CeADAR & NovaUCD AI Ecosystem Accelerator · Ireland",
+      "bullets": [
+        "Sole CeADAR technical lead for the AI Ecosystem Accelerator across all three programmes (2024, 2025 and the current 2026 cohort), working with 30 startups across every technical aspect of their products.",
+        "Architecture: reviewed each startup's full systems architecture, then redesigned and redeveloped components and optimised product roadmaps to match business priorities.",
+        "Problem solving: worked through business use cases to resolve both business issues and code-level bugs, and brainstormed hard problems in computer vision, NLP and agentic AI, machine learning and end-to-end software CI/CD.",
+        "Cloud: redesigned cloud architectures and cut cloud spend through cost optimisation.",
+        "Quality: tested systems, reviewed code and fixed bugs alongside the founders' engineering teams.",
+        "Compliance: assessed products against the EU AI Act and redesigned them to mitigate their risk levels.",
+        "Also provided technical consulting to 30+ early-stage companies over two years, including authorised penetration testing of web applications and APIs."
+      ]
+    },
+    {
+      "date": "FEB – DEC 2023",
+      "title": "Data Scientist II",
+      "org": "CeADAR, University College Dublin",
+      "bullets": [
+        "Led graph ML research: Neo4j, graph convolutional networks, link prediction and node classification.",
+        "Led a five-person team across data science, engineering and internships."
+      ]
+    },
+    {
+      "date": "SEP 2021 – FEB 2023",
+      "title": "Research ML Engineer",
+      "org": "Software Research Institute, TU Shannon",
+      "bullets": [
+        "AI software delivery for NPD Group, Enterprise Ireland and Luxottica across pipelines, NLP, vision, APIs and cloud.",
+        "Built Azure ML pipelines with automated retraining and drift monitoring."
+      ]
+    },
+    {
+      "date": "APR 2020 – MAY 2021",
+      "title": "Software Engineer - Applied Science",
+      "org": "Dilsebol Tech · India–Ireland (Remote)",
+      "bullets": [
+        "Led applied AI/ML research across natural language processing and computer vision."
+      ],
+      "sections": [
+        {
+          "title": "Quantum Computing Research",
+          "bullets": [
+            "Conducted foundational research into quantum machine learning for optimisation and classification, exploring quantum circuit design and variational quantum algorithms.",
+            "Conceptualised quantum-enhanced feature engineering and anomaly detection for high-dimensional datasets; documented findings for potential future implementation."
+          ]
+        },
+        {
+          "title": "Computer Vision · Toll / Border Road Movement Detection",
+          "bullets": [
+            
+            "Contributed to the RnD",
+            "Fine-tuned YOLOv5 and custom object detection models for vehicle classification and licence plate recognition in toll road billing systems/ Border road vechicel movement.",
+            "Used transfer learning and data augmentation to improve inference speed and accuracy for real-time edge processing.",
+            "Deployed containerised computer vision pipelines for automated toll collection processing."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "NOV 2018 – MAR 2020",
+      "title": "Full Stack Developer / ML Engineer",
+      "org": "AdmitStory Limited · United Kingdom-India",
+      "bullets": [
+        "Managed on-site and offshore software and machine learning teams throughout the SDLC and client product delivery for Edutech Startup.",
+        "Served as Scrum Master and reviewed code for a team of eight developers."
+      ],
+      "sections": [
+        {
+          "title": "Admissions Ranking System",
+          "bullets": [
+            "Developed an NLP-based admissions ranking system to identify candidates suited to Master’s and PhD programmes using educational documents, CVs and statements of purpose.",
+            "Applied pattern recognition, text analysis and classification Models for candidate selection and reduce selection costs.",
+            "Reduced Manual work loads of 10000+ Applications reviews across Major Univ in United States"
+          ]
+        },
+        {
+          "title": "Conversational Voice & Chatbots",
+          "bullets": [
+            "Built rule-based voice and chatbot applications for United States universities, supporting students, staff and other users with enquiries and FAQs.",
+            "Analysed daily conversations and improved FAQ automation, reducing manual workload equivalent to two full-time roles.",
+            "Applied bag-of-words, TF-IDF, word embeddings and Word2Vec to improve chatbot performance.",
+            "Developed LSTM and RNN models and integrated them with front-end web applications."
+          ]
+        },
+        {
+          "title": "Handwritten Exam Correction",
+          "bullets": [
+            "Developed a handwritten exam correction and ranking system combining OCR, NLP text analysis and pattern matching."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "JAN 2015 – SEP 2018",
+      "title": "Software Developer - Decision Science",
+      "org": "Dilsebol Tech · India",
+      "bullets": [
+        "Owned machine learning and NLP applications, managed client deliverables and coordinated projects using Scrum and Agile practices.",
+        "Received employee recognition in Q3 and Q4 2017 and Q1 2018 for successful application delivery and contributions to client growth."
+      ],
+      "sections": [
+        {
+          "title": "Medical Document Analysis",
+          "bullets": [
+            "Developed OCR and NLP pipelines to extract and analyse handwritten medical prescriptions, with a follow-up bot workflow.",
+            "Processed scanned medical claim PDFs and images for text extraction and classification, providing insights to support insurance claim review."
+          ]
+        },
+        {
+          "title": "Market Research & Policy Retention",
+          "bullets": [
+            "Built forecasting and NLP-based customer feedback analysis for a state government medical health insurance policy.",
+            "Developed predictive models for policyholder attrition to support retention, reduce churn and improve profitability.",
+            "Applied logistic regression, Naive Bayes, KNN, decision trees, random forests, XGBoost, CatBoost and LightGBM."
+          ]
+        },
+        {
+          "title": "Web Application Engineering",
+          "bullets": [
+            "Designed and developed interactive web applications across front-end and back-end systems using JavaScript, HTML, CSS and Java.",
+            "Worked with SQL, Apache Tomcat, IBM Rational Rose and SOAP APIs."
+          ]
+        }
+      ]
+    }
+  ],
+  "panes": [
+    {
+      "id": "2024",
+      "intro": "Eleven startups completed the inaugural six-month programme delivered by NovaUCD and CeADAR. During it, Customs Window closed an €800k seed round and Wrksense an €825k pre-seed round. I was the only CeADAR team member working with them on the technical side.",
+      "cards": [
+        {
+          "title": "ALPACA",
+          "summary": "AI-driven early literacy assessment tool, a Trinity College Dublin spin-out.",
+          "url": "https://www.alpaca-assessment.com/",
+          "sector": "Education · Literacy",
+          "tags": []
+        },
+        {
+          "title": "Customs Window",
+          "summary": "Process automation and AI for the growing complexity and volume of customs declarations and compliance.",
+          "url": "https://www.customswindow.com/",
+          "sector": "Trade · Compliance",
+          "tags": []
+        },
+        {
+          "title": "Durotimi AI",
+          "summary": "Platform that lets GPs check combinations of signs, symptoms and risk factors together to detect cancer earlier.",
+          "url": "https://www.durotimi.com/",
+          "sector": "Healthcare · Cancer detection",
+          "tags": []
+        },
+        {
+          "title": "Frontier AI",
+          "summary": "AI-powered workforce augmentation platform.",
+          "url": "http://frontierx.ai",
+          "sector": "Workforce · Augmentation",
+          "tags": []
+        },
+        {
+          "title": "GoMappED",
+          "summary": "Personalised English courses for students, driven by an AI study plan.",
+          "url": "https://gomapped.com/home",
+          "sector": "Education · English learning",
+          "tags": []
+        },
+        {
+          "title": "KnowCarbon",
+          "summary": "Calculates product carbon footprints from fewer data points so businesses can pinpoint and cut emissions.",
+          "url": "https://knowcarbon.com/",
+          "sector": "Sustainability · Carbon",
+          "tags": []
+        },
+        {
+          "title": "La Casa Care",
+          "summary": "AI wellbeing monitoring and improvement to reduce older people's care dependence, a UCD spin-out.",
+          "url": "https://www.lacasa.care/",
+          "sector": "Healthcare · Ageing at home",
+          "tags": []
+        },
+        {
+          "title": "SonnyLabs.ai",
+          "summary": "Advanced AI security system for large language models.",
+          "url": "https://sonnylabs.ai",
+          "sector": "Security · LLMs",
+          "tags": []
+        },
+        {
+          "title": "Tashka Technology",
+          "summary": "AI-enabled medical coding and healthcare analytics platform.",
+          "url": "https://medstarhis.com/",
+          "sector": "Healthcare · Medical coding",
+          "tags": []
+        },
+        {
+          "title": "Vox Medical",
+          "summary": "Uses AI to reimagine doctor-patient communication.",
+          "url": "http://www.voxmed.ai",
+          "sector": "Healthcare · Communication",
+          "tags": []
+        },
+        {
+          "title": "Wrksense",
+          "summary": "AI-driven HR tech for high-volume recruitment.",
+          "url": "https://www.wrksense.com/",
+          "sector": "HR tech · Recruitment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "2025",
+      "intro": "Nine startups across construction, finance, healthcare, cybersecurity, education, advertising and sportstech completed the programme and are collectively seeking €10M in funding. I was the only CeADAR team member working with them on the technical side, across every aspect of their products.",
+      "cards": [
+        {
+          "title": "Ailtir",
+          "summary": "Tender management for the construction industry, automating document analysis, compliance checks and bid content.",
+          "url": "https://www.ailtir.ai/",
+          "sector": "Construction · Tendering",
+          "tags": []
+        },
+        {
+          "title": "Leapifai",
+          "summary": "AI-native tax copilot that answers from legislation, Revenue guidance and case law in real time.",
+          "url": "https://www.leapifai.com/",
+          "sector": "Finance · Tax",
+          "tags": []
+        },
+        {
+          "title": "NestiFi",
+          "summary": "Lets families invest together for a child's future through a secure, AI-powered platform.",
+          "url": "https://www.nestifi.money/",
+          "sector": "Finance · Family investing",
+          "tags": []
+        },
+        {
+          "title": "PacSana",
+          "summary": "Smart bracelet that alerts a care circle when intervention is needed, helping older people live independently longer.",
+          "url": "https://pacsana.com/",
+          "sector": "Healthcare · Ageing",
+          "tags": []
+        },
+        {
+          "title": "Reactable AI",
+          "summary": "Autonomous AI marketing agent that creates, schedules and posts campaigns in your brand voice.",
+          "url": "https://www.reactable.ai/",
+          "sector": "Advertising · Marketing",
+          "tags": []
+        },
+        {
+          "title": "Run Audit",
+          "summary": "AI platform that automates and accelerates cybersecurity audits, supporting auditors and consultants.",
+          "url": "https://runaudit.ai/",
+          "sector": "Cybersecurity · Audit",
+          "tags": []
+        },
+        {
+          "title": "TrojanTrack",
+          "summary": "Smartphone video and AI motion analysis that turns a horse walking into biomechanical insights for early injury detection.",
+          "url": "https://www.trojantrack.com/",
+          "sector": "Sportstech · Equine",
+          "tags": []
+        },
+        {
+          "title": "UniDoodle",
+          "summary": "Autograding of handwritten exam work with instant feedback, using a model trained on 50,000+ annotated images.",
+          "url": "https://www.unidoodle.com/",
+          "sector": "Education · Assessment",
+          "tags": []
+        },
+        {
+          "title": "UnitMode",
+          "summary": "Helps brands make clear, compliant and trusted environmental claims in their marketing.",
+          "url": "https://www.unitmode.com/",
+          "sector": "Marketing · Sustainability",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "2026",
+      "intro": "Ten AI-first startups began the third programme on 30 April 2026, with an investor showcase planned for October. I am the only CeADAR team member working with them on the technical side.",
+      "cards": [
+        {
+          "title": "AnotherTrip",
+          "summary": "AI platform for travel and hospitality brands to find, vet, manage and measure content-creator partnerships.",
+          "url": "https://anothertrip.com/",
+          "sector": "Travel · Creator marketing",
+          "tags": []
+        },
+        {
+          "title": "Databuckets",
+          "summary": "Large-scale data platform with agentic analytics, taking mobile game and app companies from raw data to real-time insight.",
+          "url": "https://www.databuckets.com/",
+          "sector": "Data · Mobile apps",
+          "tags": []
+        },
+        {
+          "title": "Diotima",
+          "summary": "Reliable, responsible AI that gives educators more formative assessment and individual feedback in any subject.",
+          "url": "https://www.diotima.ai/",
+          "sector": "Education · Assessment",
+          "tags": []
+        },
+        {
+          "title": "Envaira",
+          "summary": "Environmental, health and safety compliance platform tailored to each company's legislation, with audit-ready evidence.",
+          "url": "https://envaira.com/",
+          "sector": "Compliance · EHS",
+          "tags": []
+        },
+        {
+          "title": "Infralign.ai",
+          "summary": "Agentic AI acting as a virtual staff architect, analysing Azure cost and workloads and delivering merge-ready code fixes.",
+          "url": "https://infralign.ai",
+          "sector": "Cloud · FinOps",
+          "tags": []
+        },
+        {
+          "title": "MESO",
+          "summary": "AI planning tools that generate curriculum-aligned lesson plans, assessments and rubrics for teachers.",
+          "url": "https://www.mesolab.ai/",
+          "sector": "Education · Teaching tools",
+          "tags": []
+        },
+        {
+          "title": "Neuronourish",
+          "summary": "AI brain-health platform for early detection and prevention of cognitive decline through personalised interventions.",
+          "url": "https://neuronourish.clinic/",
+          "sector": "Healthcare · Brain health",
+          "tags": []
+        },
+        {
+          "title": "RunCommerce",
+          "summary": "AI-powered commerce platform helping D2C brands and retailers launch, manage and scale online operations.",
+          "url": "https://runcommerce.ai/",
+          "sector": "Retail · E-commerce",
+          "tags": []
+        },
+        {
+          "title": "Setanta Space",
+          "summary": "Modular onboard computing hardware and AI software to make spacecraft more autonomous and resilient.",
+          "url": "https://www.setantaspace.com/",
+          "sector": "Space · Hardware and AI",
+          "tags": []
+        },
+        {
+          "title": "Stormlands Mining",
+          "summary": "AI-first valuation and analytics platform for critical raw materials.",
+          "url": "https://www.stormlandsmining.com/",
+          "sector": "Mining · Analytics",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "npd",
+      "intro": "Client delivery for NPD Group in the United States, covering requirements, architecture, model development, APIs, testing and cloud deployment, including data collected through the ReceiptPal application.",
+      "cards": [
+        {
+          "title": "Weekly data pipelines",
+          "summary": "Designed and operated Azure data and ML pipelines handling roughly 25–30 million consumer transaction and receipt records every week, with ingestion, validation, cleaning and feature engineering in Azure Data Lake.",
+          "url": null,
+          "sector": "",
+          "tags": [
+            "Azure Data Lake",
+            "Pipelines",
+            "ReceiptPal"
+          ]
+        },
+        {
+          "title": "Anomaly detection at scale",
+          "summary": "Orchestrated more than 5,000 anomaly-detection model runs per processing cycle using Azure Machine Learning.",
+          "url": null,
+          "sector": "",
+          "tags": [
+            "Azure ML",
+            "Anomaly detection"
+          ]
+        },
+        {
+          "title": "Production MLOps",
+          "summary": "Automated retraining, drift monitoring, Feast-based feature management and deployment automation to keep models reliable across cycles.",
+          "url": null,
+          "sector": "",
+          "tags": [
+            "Feast",
+            "Drift monitoring",
+            "Automation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lux",
+      "intro": "Client delivery for Luxottica in Italy on a Ray-Ban recommendation application, from requirements through model development, APIs, testing and deployment.",
+      "cards": [
+        {
+          "title": "Iris-colour classification",
+          "summary": "Built a model that classifies iris colour to power eyewear recommendations in the Ray-Ban application.",
+          "url": null,
+          "sector": "",
+          "tags": [
+            "Computer vision",
+            "Classification"
+          ]
+        },
+        {
+          "title": "Face-shape classification",
+          "summary": "Built a face-shape classification model, supporting personalised product recommendation for users.",
+          "url": null,
+          "sector": "",
+          "tags": [
+            "Facial analysis",
+            "Recommendation"
+          ]
+        },
+        {
+          "title": "Mobile and edge deployment",
+          "summary": "Deployed the models to mobile and edge environments so they run close to the user.",
+          "url": null,
+          "sector": "",
+          "tags": [
+            "Mobile",
+            "Edge AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ei",
+      "intro": "AI delivery for Enterprise Ireland client projects, owned end to end across requirements, architecture, model development, APIs, testing and cloud deployment.",
+      "cards": [
+        {
+          "title": "End-to-end project delivery",
+          "summary": "Owned delivery of AI work for Enterprise Ireland from requirements and architecture through model development, API integration, testing and cloud deployment. Further project detail is available on request.",
+          "url": null,
+          "sector": "",
+          "tags": [
+            "Architecture",
+            "APIs",
+            "Testing",
+            "Cloud"
+          ]
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Selection & screening",
+      "subtitle": "Who gets the support",
+      "body": "Profile each applicant before and at entry, so technical mentoring goes where it can change the outcome most.",
+      "outcome": "A clear starting profile for each startup: strengths, gaps and risk areas.",
+      "parameters": [
+        "Technical skills & team depth",
+        "Market validation",
+        "Competitor landscape",
+        "Business use case",
+        "Live pilots & traction",
+        "Data readiness",
+        "AI maturity",
+        "Scalability",
+        "Funding stage",
+        "EU AI Act exposure"
+      ]
+    },
+    {
+      "title": "Problem & challenges",
+      "subtitle": "What is really blocking them",
+      "body": "Work through the business use cases with the founders to surface both business problems and code-level bugs standing in the way.",
+      "outcome": "A prioritised problem list tied to business impact.",
+      "parameters": [
+        "Business use case",
+        "Customer pain points",
+        "Bugs & technical debt",
+        "Funding milestones",
+        "Computer vision",
+        "NLP & agentic AI",
+        "Machine learning"
+      ]
+    },
+    {
+      "title": "Architecture review",
+      "subtitle": "Reading the whole system",
+      "body": "Review the full systems architecture end to end, from data and models to APIs, security and cloud footprint.",
+      "outcome": "Findings on weaknesses, risks and quick wins.",
+      "parameters": [
+        "Data flows",
+        "Models & pipelines",
+        "APIs",
+        "Security",
+        "Scalability",
+        "Observability",
+        "Cloud footprint"
+      ]
+    },
+    {
+      "title": "Redesign & redevelop",
+      "subtitle": "Fixing it with the team",
+      "body": "Brainstorm the hard problems in computer vision, NLP and agentic AI, ML and end-to-end CI/CD, then redesign and redevelop the weakest components.",
+      "outcome": "A leaner, more maintainable architecture implemented alongside the team.",
+      "parameters": [
+        "Target architecture",
+        "Model choice",
+        "Build vs buy",
+        "Tech stack",
+        "Maintainability",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Cloud & cost",
+      "subtitle": "Spend less, scale better",
+      "body": "Redesign the cloud architecture and optimise cost so the product scales without runaway spend.",
+      "outcome": "Lower cloud spend and an architecture that scales sensibly.",
+      "parameters": [
+        "Compute & storage",
+        "Managed services",
+        "Right-sizing",
+        "Monitoring",
+        "Cost per use"
+      ]
+    },
+    {
+      "title": "Test, review & fix",
+      "subtitle": "Making it reliable",
+      "body": "Test the systems, review the code and fix bugs, so each release is dependable.",
+      "outcome": "Reliable releases with fewer defects.",
+      "parameters": [
+        "System & integration tests",
+        "Code review",
+        "Bug triage",
+        "Model evaluation",
+        "Release pipeline"
+      ]
+    },
+    {
+      "title": "EU AI Act",
+      "subtitle": "Risk by design",
+      "body": "Assess each product against the EU AI Act and redesign it to mitigate its risk levels.",
+      "outcome": "Mitigated risk levels and a compliance-ready design.",
+      "parameters": [
+        "Use-case classification",
+        "Risk level",
+        "Data governance",
+        "Transparency",
+        "Human oversight",
+        "Risk controls"
+      ]
+    },
+    {
+      "title": "Roadmap & readiness",
+      "subtitle": "Ready for the market",
+      "body": "Optimise the product roadmap and confirm the system is robust, reliable and fit for real-world use before investors and customers see it.",
+      "outcome": "An optimised roadmap and a product ready to scale.",
+      "parameters": [
+        "Roadmap priorities",
+        "Deployment readiness",
+        "Data strategy",
+        "Model evaluation",
+        "Investor showcase"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "AI systems",
+      "items": [
+        "LLMs",
+        "RAG",
+        "Multi-agent",
+        "Multimodal",
+        "Computer vision",
+        "Speech AI",
+        "Evaluation"
+      ]
+    },
+    {
+      "title": "Engineering",
+      "items": [
+        "Python",
+        "Java",
+        "R",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "SQL",
+        "Docker",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Cloud & MLOps",
+      "items": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "SageMaker",
+        "Bedrock",
+        "Vertex AI",
+        "Azure ML",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Leadership",
+      "items": [
+        "Solution architecture",
+        "Discovery",
+        "Stakeholders",
+        "Code review",
+        "Mentoring",
+        "Delivery planning"
+      ]
+    }
+  ],
+  "award": {
+    "title": "NovaUCD Innovation Champion of the Year",
+    "body": "The CeADAR EDIH for AI team, which I am part of, received the 2026 award for championing innovation and industry engagement. UCD President Professor Orla Feely presented it to EDIH Programme Manager Laura Plunkett on the team's behalf. The programme is co-funded by the EU Digital Europe Programme and Ireland's Department of Enterprise, Tourism and Employment through Enterprise Ireland.",
+    "url": "https://www.linkedin.com/posts/novaucd_2026-novaucd-innovation-champion-of-the-year-ugcPost-7451999279759486976-eDF8"
+  }
+}
