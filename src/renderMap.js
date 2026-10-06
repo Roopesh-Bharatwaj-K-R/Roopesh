@@ -2,8 +2,13 @@
 
 
 
+
+
 import * as maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
+
+maplibregl.setWorkerUrl(workerUrl);
 
 // Nexus UCD, Belfield Office Park: OpenStreetMap node 755857209.
 const NEXUS = [-6.23422, 53.31255];
